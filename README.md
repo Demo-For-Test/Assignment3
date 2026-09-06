@@ -4,7 +4,7 @@ An enterprise-grade, high-performance CUDA image processing pipeline built to pr
 
 ---
 
-## 🏛️ Project Architecture & Pipeline Flow
+## Project Architecture & Pipeline Flow
 
 The pipeline ingests raw 24-bit RGB images (Netpbm PPM format), executes a 4-stage GPU processing graph, and outputs 8-bit edge gradient maps:
 
@@ -43,7 +43,7 @@ The pipeline ingests raw 24-bit RGB images (Netpbm PPM format), executes a 4-sta
 
 ---
 
-## 🚀 Key GPU Features & Technical Highlights
+## Key GPU Features & Technical Highlights
 
 1. **Multi-Stream Asynchronous Concurrency**:
    - Manages $N$ concurrent `cudaStream_t` execution queues.
@@ -90,7 +90,7 @@ chmod +x run.sh
 
 ---
 
-## 📊 Proof of Execution Artifacts
+## Proof of Execution Artifacts
 
 Evidence of code execution on **120 images** (30 MB of image data) is stored in the repository:
 - `data/input/`: 120 synthetic benchmark PPM images (256x256 RGB).
@@ -100,7 +100,7 @@ Evidence of code execution on **120 images** (30 MB of image data) is stored in 
 
 ---
 
-## 📂 Repository Layout
+## Repository Layout
 
 ```
 ├── Makefile                          # Build rules for nvcc and g++
