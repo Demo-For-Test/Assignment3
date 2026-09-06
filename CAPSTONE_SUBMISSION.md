@@ -13,7 +13,7 @@ Enterprise CUDA Batch Image Processing Pipeline: Multi-Stream Concurrency and Sh
 
 ## 📋 Field 2: Code Repository URL
 ```text
-https://github.com/Demo-For-Test/Coursera_Assignment2
+https://github.com/Demo-For-Test/Assignment3
 ```
 *(Publicly accessible GitHub repository containing the full codebase, Makefile, run.sh, dataset, outputs, and proof of execution artifacts).*
 
